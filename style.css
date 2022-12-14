@@ -1,0 +1,26 @@
+a[href^="https://www.google.com/"] {
+    color: green;
+}
+a[target] {
+    color: red;
+}
+#second-div
+p:nth-child(2n+2){
+    color: red;
+}
+#second-div
+p:nth-child(2n+1){
+    color: blue;
+}
+.paragraph2::after{
+    content:"-NEW";
+    color: yellow;
+}
+.paragraph3::after{
+    content: "-NEW";
+    color: yellow;
+}
+.paragraph10:hover{
+    color: black;
+    font-style: italic;
+}
